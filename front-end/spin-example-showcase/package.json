@@ -1,0 +1,26 @@
+{
+  "name": "spin-example-showcase",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "styles": "npx parcel watch ./src/static/sass/styles.scss --dist-dir ./src/static/css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "highlight.js": "^11.7.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@fermyon/styleguide": "^0.1.6",
+    "@parcel/transformer-sass": "^2.7.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "parcel": "^2.8.1",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.56.2",
+    "vite": "^4.0.0"
+  }
+}
